@@ -20,13 +20,11 @@ const Navbar = ({ icon, title }) => {
   );
 };
 
-// 声明默认数据
 Navbar.defaultProps = {
   title: 'Github Finder',
   icon: 'fab fa-github-alt',
 };
 
-// 声明数据类型
 Navbar.propTypes = {
   title: PropTypes.string.isRequired,
   icon: PropTypes.string.isRequired,

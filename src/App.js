@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-// import logo from './logo.svg';
 import Navbar from './components/layout/Navbar';
 import User from './components/users/User';
 import Alert from './components/layout/Alert';
@@ -17,7 +16,6 @@ const App = () => {
       <AlertState>
         <Router>
           <div className='App'>
-            {/** 从外部注入prop */}
             <Navbar />
             <div className='container'>
               <Alert />
